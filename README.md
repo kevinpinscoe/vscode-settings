@@ -26,7 +26,7 @@ put them here, A) so that I could review revisions I had made and B) share solut
 
 [Github Theme](https://marketplace.visualstudio.com/items?itemName=GitHub.github-vscode-theme) - Style `Github Dark`.
 
-ext install GitHub.github-vscode-theme
+`code --install-extension GitHub.github-vscode-theme`
 
 ![ Github Theme](images/github-dark.png)
 
