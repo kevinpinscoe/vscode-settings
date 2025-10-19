@@ -26,8 +26,6 @@ put them here, A) so that I could review revisions I had made and B) share solut
 
 TBA
 
-![ Github Theme](images/github-dark.png)
-
 ## Font-family
 
 I use [JetBrains Mono](https://www.jetbrains.com/lp/mono/) as standard source.
