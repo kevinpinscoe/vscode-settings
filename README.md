@@ -28,6 +28,15 @@ put them here, A) so that I could review revisions I had made and B) share solut
 
 `code --install-extension GitHub.github-vscode-theme`
 
+```
+{
+  "workbench.colorTheme": "GitHub Dark Default",
+  "workbench.preferredDarkColorTheme": "GitHub Dark Default",
+  "workbench.preferredLightColorTheme": "GitHub Light Default",
+  "window.autoDetectColorScheme": true
+}
+```
+
 ![ Github Theme](images/github-dark.png)
 
 ## Font-family
