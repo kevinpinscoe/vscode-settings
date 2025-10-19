@@ -1,19 +1,19 @@
-# Kevin Inscoe VSCode settings
+# Kevin Inscoe vscode settings
 
-Here you will find my relevant VSCOde settings that I use on three machines: Windows 11, MacOS and Fedora Linux.
+Here you will find my relevant and portable vscode settings that I use on three machines: Windows 11, MacOS and Fedora Linux.
 
-Settings are always being updated according to my needs and expediancy and proficiency.
+Settings are always being updated according to my needs and expediency and proficiency.
 
 The settings are separated in the following topics:
 
-- [Backup and synchronization of VSCOde settings](#backup-and-synchronization-of-the-vscode settings)
+- [Backup and synchronization of vscode settings](#backup-and-synchronization-of-vscode settings)
 - [Theme](#theme)
 - [Font-family](#font-family)
 - [Shell default](#shell-default)
 - [Extensions](#extensions)
 - [Some relevant settings](#some-settings-relevant)
 
-## Backup and synchronization of VSCode settings
+## Backup and synchronization of vscode settings
 
 I decided rather than sync between the three machines which I could easily do I would
 put them here, A) so that I could review revisions I had made and B) share solutions I had found to others.
@@ -30,7 +30,7 @@ ext install GitHub.github-vscode-theme
 
 I use [JetBrains Mono](https://www.jetbrains.com/lp/mono/) as standard source.
 
-Install it on your computer and activate it in the VSCode by changing the `editor.fontFamily` option, for example:
+Install it on your computer and activate it in the vscode by changing the `editor.fontFamily` option, for example:
 
 ```json
 "editor.fontFamily": "\"JetBrains Mono\", 'Courier New', monospace",
