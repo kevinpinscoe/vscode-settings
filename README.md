@@ -24,18 +24,7 @@ put them here, A) so that I could review revisions I had made and B) share solut
 
 ## Theme
 
-[Github Theme](https://marketplace.visualstudio.com/items?itemName=GitHub.github-vscode-theme) - Style `Github Dark`.
-
-`code --install-extension GitHub.github-vscode-theme`
-
-```
-{
-  "workbench.colorTheme": "GitHub Dark Default",
-  "workbench.preferredDarkColorTheme": "GitHub Dark Default",
-  "workbench.preferredLightColorTheme": "GitHub Light Default",
-  "window.autoDetectColorScheme": true
-}
-```
+TBA
 
 ![ Github Theme](images/github-dark.png)
 
