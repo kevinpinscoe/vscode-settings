@@ -12,7 +12,7 @@ dominic-valerio.bash-runner
 ecmel.vscode-html-css
 formulahendry.code-runner
 foxundermoon.shell-format
-gamunu.opentofu
+opentofu.vscode-opentofu
 github.github-vscode-theme
 github.remotehub
 github.vscode-github-actions
