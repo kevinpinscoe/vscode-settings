@@ -119,8 +119,6 @@ Mine are:
 I had gotten used to my terminal and some other apps automatically copying a selection
 to the paste buffer however when I tried on vscode it turned out to be a horror show.
 
-If I wanted to paste something in from I would first select all in my current buffer and that in turn would replace what was in my paste buffer with what I just selected. Very frustrating. After thinking about it I realized this is actually hard to do in an editor 
-versus some other app where are cutting and pasting. Until I figure out how to work around
-this I left it off but if you want to enable it:
+If I wanted to paste something in I would first select all in my current buffer and that in turn would replace what was in my paste buffer with what I just copied. Very frustrating. After thinking about it I realized this is actually hard to do in an editor versus some other app where are cutting and pasting. Until I figure out how to work around this I left it off but if you want to enable it:
 
 `"terminal.integrated.copyOnSelection": true`
