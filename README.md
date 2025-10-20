@@ -31,9 +31,9 @@ The symlink would look like `ln -s <live-vscode-directory>/settings.json <repo>/
 
 Live directories:
 
-Linux: `~/.config/Code/User/settings.json`
-Mac: `"~/Library/Application Support/Code/User/settings.json"`
-Windows 11: TBD 
+- Linux: `~/.config/Code/User/settings.json`
+- Mac: `"~/Library/Application Support/Code/User/settings.json"`
+- Windows 11: TBD 
 
 ## Theme
 
