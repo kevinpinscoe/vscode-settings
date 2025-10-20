@@ -11,6 +11,7 @@ The settings are separated in the following topics:
   - [How does User settings work with this repo?](#how-does-user-settings-work-with-this-repo)
   - [Theme](#theme)
   - [Font-family](#font-family)
+  - [Colors](#colors)
   - [Shell default](#shell-default)
   - [Extensions](#extensions)
   - [Some relevant settings](#some-relevant-settings)
@@ -39,6 +40,8 @@ Live directories:
 
 Dank Neon Dark - https://marketplace.visualstudio.com/items?itemName=wuz.dank-neon
 
+![Dank Neon Dark](images/kinscoe-dank-neon-dark-theme.png "Dank Neon Dark theme")
+
 ## Font-family
 
 I use [JetBrains Mono](https://www.jetbrains.com/lp/mono/) as standard source.
@@ -54,6 +57,14 @@ Install:
 `
 - Macos: `brew install --cask font-jetbrains-mono`
 - Windows 11: Download from https://www.jetbrains.com/lp/mono/
+  
+## Colors
+
+For workspace colors I use extension Window Colors - https://marketplace.visualstudio.com/items?itemName=stuart.unique-window-colors
+
+For tab colors (only in Linux) I use Tabs color - https://marketplace.visualstudio.com/items?itemName=mondersky.tabscolor 
+
+Tab color only works in Linux however because you have to have sudo as it writes to the install directory unless you install vscode in your home directory,
 
 ## Shell default
 
