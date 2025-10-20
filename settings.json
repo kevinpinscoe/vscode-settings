@@ -69,5 +69,10 @@
     "editor.wordWrap": "wordWrapColumn",
     "editor.wordWrapColumn": 90
   },
-  "terraform.languageServer.path": "/opt/homebrew/bin/terraform-ls"
+  
+  // Terraform / Opentofu
+  "terraform.languageServer.path": "/opt/homebrew/bin/terraform-ls",
+
+  // Theme
+  "workbench.colorTheme": "Dank Neon"
 }

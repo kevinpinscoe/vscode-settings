@@ -37,7 +37,7 @@ Live directories:
 
 ## Theme
 
-TBA
+Dank Neon Dark - https://marketplace.visualstudio.com/items?itemName=wuz.dank-neon
 
 ## Font-family
 
