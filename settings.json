@@ -1,1 +1,45 @@
-/home/kinscoe/.config/Code/U^Cr/settings.json
+{
+  "files.autoSave": "afterDelay",
+  "editor.fontSize": 16,
+  "explorer.confirmDelete": false,
+  "redhat.telemetry.enabled": false,
+  "application.shellEnvironmentResolutionTimeout": 30,
+  "go.toolsManagement.autoUpdate": true,
+
+  // Custom spellings
+  "cSpell.userWords": [
+    "heavenlies"
+  ],
+
+  // Language-specific: Docker Compose (yaml)
+  "[dockercompose]": {
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2,
+    "editor.autoIndent": "advanced",
+    "editor.quickSuggestions": {
+      "other": true,
+      "comments": false,
+      "strings": true
+    },
+    "editor.defaultFormatter": "redhat.vscode-yaml"
+  },
+
+  // Language-specific: GitHub Actions (yaml)
+  "[github-actions-workflow]": {
+    "editor.defaultFormatter": "redhat.vscode-yaml"
+  },
+
+  // Wrapping
+  "editor.rulers": [90],
+  "editor.wordWrap": "wordWrapColumn",
+  "editor.wordWrapColumn": 90,
+
+  // Let Rewrap follow the ruler (90)
+  "rewrap.wrappingColumn": 0,
+
+  "[markdown]": {
+    "editor.wordWrap": "wordWrapColumn",
+    "editor.wordWrapColumn": 90
+  }
+}
+
