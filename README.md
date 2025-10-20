@@ -75,6 +75,10 @@ wget -O - https://raw.githubusercontent.com/kevinpinscoe/vscode-settings/refs/he
 ````
 See extensions.txt for the list
 
+To uninstall all of the extensions (I did this to flush out older ones and then reinstall):
+
+`code --list-extensions | xargs -n1 code --uninstall-extension`
+
 ## Some relevant settings
 
 ### File saving mode
