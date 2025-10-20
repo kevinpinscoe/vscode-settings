@@ -8,6 +8,7 @@ The settings are separated in the following topics:
 
 - [Kevin Inscoe vscode settings](#kevin-inscoe-vscode-settings)
   - [Backup and synchronization of vscode settings](#backup-and-synchronization-of-vscode-settings)
+  - [How does User settings work with this repo?](#how-does-user-settings-work-with-this-repo)
   - [Theme](#theme)
   - [Font-family](#font-family)
   - [Shell default](#shell-default)
@@ -21,6 +22,18 @@ The settings are separated in the following topics:
 
 I decided rather than sync between the three machines which I could easily do I would
 put them here, A) so that I could review revisions I had made and B) share solutions I had found to others.
+
+## How does User settings work with this repo?
+
+I use symlinks on Linux and Mac to this repo where it is cloned locally
+
+The symlink would look like `ln -s <live-vscode-directory>/settings.json <repo>/settings.json
+
+Live directories:
+
+Linux: `~/.config/Code/User/settings.json`
+Mac: `"~/Library/Application Support/Code/User/settings.json"`
+Windows 11: TBD 
 
 ## Theme
 
