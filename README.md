@@ -70,8 +70,8 @@ TBA but I don't work much shell in Windows except PowerShell.
 My extensions can be easily installed by running:
 
 ```bash
-wget https://raw.githubusercontent.com/kevinpinscoe/vscode-settings/main/vscode-settings/extensions.txt
-wget -O - https://raw.githubusercontent.com/kevinpinscoe/vscode-settings/main/install-extensions.sh | bash
+wget https://raw.githubusercontent.com/kevinpinscoe/vscode-settings/refs/heads/main/extensions.txt
+wget -O - https://raw.githubusercontent.com/kevinpinscoe/vscode-settings/refs/heads/main/install-extensions.sh | bash
 ````
 See extensions.txt for the list
 
