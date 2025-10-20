@@ -1,17 +1,44 @@
 {
+  // Files auto save
   "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 100,
+
+  // Editor
   "editor.fontSize": 16,
+  "editor.inlineSuggest.suppressSuggestions": true,
+  "editor.accessibilitySupport": "off",
+
+  // Explorer
   "explorer.confirmDelete": false,
+
+  // Redhat
   "redhat.telemetry.enabled": false,
+
+  // Shell env
   "application.shellEnvironmentResolutionTimeout": 30,
+
+  // Go
   "go.toolsManagement.autoUpdate": true,
 
-  // Custom spellings
+  // Cody AI
+  "cody.commandCodeLenses": true,
+  "cody.suggestions.mode": "off",
+
+  // MSSQL
+  "mssql.connectionGroups": [
+    {
+      "name": "ROOT",
+      "id": "ED9F143E-6F3E-46E8-96DD-547681FB05B0"
+    }
+  ],
+  "mssql.connections": [],
+
+  // Spelling
   "cSpell.userWords": [
     "heavenlies"
   ],
 
-  // Language-specific: Docker Compose (yaml)
+  // Docker Compose
   "[dockercompose]": {
     "editor.insertSpaces": true,
     "editor.tabSize": 2,
@@ -24,12 +51,12 @@
     "editor.defaultFormatter": "redhat.vscode-yaml"
   },
 
-  // Language-specific: GitHub Actions (yaml)
+  // GitHub Actions
   "[github-actions-workflow]": {
     "editor.defaultFormatter": "redhat.vscode-yaml"
   },
 
-  // Wrapping
+  // Wrapping / Rulers
   "editor.rulers": [90],
   "editor.wordWrap": "wordWrapColumn",
   "editor.wordWrapColumn": 90,
@@ -37,9 +64,10 @@
   // Let Rewrap follow the ruler (90)
   "rewrap.wrappingColumn": 0,
 
+  // Markdown
   "[markdown]": {
     "editor.wordWrap": "wordWrapColumn",
     "editor.wordWrapColumn": 90
-  }
+  },
+  "terraform.languageServer.path": "/opt/homebrew/bin/terraform-ls"
 }
-
