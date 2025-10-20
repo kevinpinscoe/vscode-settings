@@ -59,7 +59,7 @@ Install:
 
 Diehard bourne-again-shell user so bash is my go-to.
 
-For Linux and Mac I have a private repo of my bash files, perhaps someday I wil put them publicly.
+For Linux and Mac I have a private repo of my bash files, perhaps someday I will put them publicly.
 
 For Windows:
 
