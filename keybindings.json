@@ -1,0 +1,9 @@
+[
+// Insert "#!/usr/bin/env bash" on Ctrl+B in shell scripts
+  {
+    "key": "ctrl+b",
+    "command": "editor.action.insertSnippet",
+    "when": "editorTextFocus && editorLangId == 'shellscript'",
+    "args": { "snippet": "#!/usr/bin/env bash\n" }
+  }
+]
