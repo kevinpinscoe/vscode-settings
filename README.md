@@ -1,8 +1,6 @@
 # Kevin Inscoe vscode settings
 
-Here you will find my vscode settings that I use on two machines: MacOS and Fedora Linux broken into two sub-directories. /personal is Fedora and /professional being te Mac.
-
-Settings are always being updated according to my needs, expediency and proficiency.
+Here you will find my vscode settings that I use on two machines: MacOS and Fedora Linux broken into two sub-directories {schemas}: /personal is Fedora and /professional being the Mac.
 
 The settings are separated in the following topics:
 
@@ -23,11 +21,26 @@ The settings are separated in the following topics:
 
 I decided rather than sync between the machines which I could easily do I would put them here, A) so that I could review revisions I had made and B) share solutions I had found to others.
 
-## How does User settings work with this repo?
+## How does vscode settings and workspaces work with this repo?
 
 In each directory is a copy.sh and a install.sh. I could have run a symlink from each live directory to the repo but I have had unforeseen and unexpected problems in the past doing this so I chose this compromise. I do the same with my dotfiles repo which is not public. 
 
 I use copy.sh to copy the files from the live directory to the repo and install,sh to restore them from the repo (if need be). 
+
+I will not in many project sub-folders are workspace color settings which are not represented here.
+
+Typically they look like:
+
+```
+{
+    "workbench.colorCustomizations": {
+        "activityBar.background": "#491F32",
+        "titleBar.activeBackground": "#662C47",
+        "titleBar.activeForeground": "#FCF9FA",
+        "tab.activeBorderTop": "#FA9E9E"
+    }
+}
+```
 
 ## Theme
 
@@ -74,10 +87,10 @@ TBA but I don't work much shell in Windows except PowerShell.
 My extensions can be easily installed by running:
 
 ```bash
-wget https://raw.githubusercontent.com/kevinpinscoe/vscode-settings/refs/heads/main/extensions.txt
-wget -O - https://raw.githubusercontent.com/kevinpinscoe/vscode-settings/refs/heads/main/install-extensions.sh | bash
+wget https://raw.githubusercontent.com/kevinpinscoe/vscode-settings/refs/heads/main/{schema}extensions.txt
+wget -O - https://raw.githubusercontent.com/kevinpinscoe/vscode-settings/refs/heads/main/{schema}install-extensions.sh | bash
 ````
-See extensions.txt for the list
+See {schema}/extensions.txt for the list
 
 To uninstall all of the extensions (I did this to flush out older ones and then reinstall):
 
