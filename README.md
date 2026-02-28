@@ -27,7 +27,7 @@ In each directory is a copy.sh and a install.sh. I could have run a symlink from
 
 I use copy.sh to copy the files from the live directory to the repo and install,sh to restore them from the repo (if need be). 
 
-I will not in many project sub-folders are workspace color settings which are not represented here.
+I will note in many project sub-folders are workspace color settings which are not represented here.
 
 Typically they look like:
 
@@ -76,7 +76,7 @@ Tab color only works in Linux however because you have to have sudo as it writes
 
 Diehard bourne-again-shell user so bash is my go-to.
 
-For Linux and Mac I have a private repo of my bash files, perhaps someday I will put them publicly.
+For Linux and Mac I have a private repo of my bash files (dotfiles).
 
 For Windows:
 
@@ -87,8 +87,8 @@ TBA but I don't work much shell in Windows except PowerShell.
 My extensions can be easily installed by running:
 
 ```bash
-wget https://raw.githubusercontent.com/kevinpinscoe/vscode-settings/refs/heads/main/{schema}extensions.txt
-wget -O - https://raw.githubusercontent.com/kevinpinscoe/vscode-settings/refs/heads/main/{schema}install-extensions.sh | bash
+wget https://raw.githubusercontent.com/kevinpinscoe/vscode-settings/refs/heads/main/{schema}/extensions.txt
+wget -O - https://raw.githubusercontent.com/kevinpinscoe/vscode-settings/refs/heads/main/{schema}/install-extensions.sh | bash
 ````
 See {schema}/extensions.txt for the list
 
