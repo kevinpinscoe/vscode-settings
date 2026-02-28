@@ -1,0 +1,1 @@
+code --list-extensions > "$HOME/Projects/kevininscoe.com/vscode-settings/personal/extensions.txt"
