@@ -1,6 +1,6 @@
 # Kevin Inscoe vscode settings
 
-Here you will find my relevant and portable vscode settings that I use on three machines: Windows 11, MacOS and Fedora Linux.
+Here you will find my vscode settings that I use on two machines: MacOS and Fedora Linux broken into two sub-directories. /personal is Fedora and /professional being te Mac.
 
 Settings are always being updated according to my needs, expediency and proficiency.
 
@@ -21,20 +21,13 @@ The settings are separated in the following topics:
 
 ## Backup and synchronization of vscode settings
 
-I decided rather than sync between the three machines which I could easily do I would
-put them here, A) so that I could review revisions I had made and B) share solutions I had found to others.
+I decided rather than sync between the machines which I could easily do I would put them here, A) so that I could review revisions I had made and B) share solutions I had found to others.
 
 ## How does User settings work with this repo?
 
-I use symlinks on Linux and Mac to this repo where it is cloned locally
+In each directory is a copy.sh and a install.sh. I could have run a symlink from each live directory to the repo but I have had unforeseen and unexpected problems in the past doing this so I chose this compromise. I do the same with my dotfiles repo which is not public. 
 
-The symlink would look like `ln -s <live-vscode-directory>/settings.json <repo>/settings.json
-
-Live directories:
-
-- Linux: `~/.config/Code/User/settings.json`
-- Mac: `"~/Library/Application Support/Code/User/settings.json"`
-- Windows 11: TBD 
+I use copy.sh to copy the files from the live directory to the repo and install,sh to restore them from the repo (if need be). 
 
 ## Theme
 
@@ -122,3 +115,26 @@ to the paste buffer however when I tried on vscode it turned out to be a horror 
 If I wanted to paste something in I would first select all in my current buffer and that in turn would replace what was in my paste buffer with what I just copied. Very frustrating. After thinking about it I realized this is actually hard to do in an editor versus some other app where are cutting and pasting. Until I figure out how to work around this I left it off but if you want to enable it:
 
 `"terminal.integrated.copyOnSelection": true`
+
+### Word wrapping and rulers
+
+I use standard 70 characters ruler and wrap for Markdown and Text files.
+
+```
+  // Wrapping / Rulers
+  "editor.rulers": [70],
+  "editor.wordWrap": "wordWrapColumn",
+  "editor.wordWrapColumn": 70,
+  "[plaintext]": {
+    "editor.wordWrap": "wordWrapColumn",
+    "editor.wordWrapColumn": 70,
+  },
+  "[markdown]": {
+    "editor.wordWrap": "wordWrapColumn",
+    "editor.wordWrapColumn": 70,
+  },
+  ```
+
+### Mermaid mindmap tasks
+
+More on this in my https://github.com/kevinpinscoe/KnowledgeManagement repo.
