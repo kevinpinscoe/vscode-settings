@@ -1,0 +1,32 @@
+{
+  "folders": [
+    { "path": "/Users/kinscoe/Projects", "name": "PROJECTS" },
+    { "path": "/Users/kinscoe", "name": "HOME" },
+    { "path": "/Users/kinscoe/ai", "name": "AI" }
+  ],
+  "tasks": {
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "Mermaid: Render current .mmd to PNG",
+        "type": "shell",
+        "command": "/home/kinscoe/bin/mmdc-render",
+        "args": ["${file}"],
+        "problemMatcher": [],
+        "presentation": {
+          "reveal": "always",
+          "panel": "dedicated",
+          "clear": true
+        }
+      }
+    ]
+  },
+  "settings": {
+    "workbench.colorCustomizations": {
+      "activityBar.background": "#053600",
+      "titleBar.activeBackground": "#074C00",
+      "titleBar.activeForeground": "#EEFFED",
+      "tab.activeBorderTop": "#FA9E9E"
+    },
+  }
+}
