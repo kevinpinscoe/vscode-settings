@@ -1,4 +1,7 @@
 {
+  // Poor practice but is causing me grief
+  "security.workspace.trust.enabled": false,
+  
   // Files auto save
   "files.autoSave": "afterDelay",
   "files.autoSaveDelay": 100,
@@ -39,6 +42,7 @@
   "mssql.connections": [],
 
   // Spelling
+  "cSpell.fixSpellingWithRenameProvider": false,
   "cSpell.userWords": ["heavenlies", "journaling"],
   "cSpell.ignorePaths": [
       "**/.vscode/settings.json",
@@ -93,4 +97,5 @@
   "files.associations": {
     "*.mmd": "markdown",
   },
+  "claudeCode.preferredLocation": "panel",
 }
