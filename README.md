@@ -1,5 +1,7 @@
 # Kevin Inscoe vscode settings
 
+> **This repository is archived.** VS Code settings are now maintained in the [dotfiles](https://github.com/kevinpinscoe/dotfiles) repo.
+
 Here you will find my vscode settings that I use on two machines: MacOS and Fedora Linux broken into two sub-directories {schemas}: /personal is Fedora and /professional being the Mac.
 
 The settings are separated in the following topics:
